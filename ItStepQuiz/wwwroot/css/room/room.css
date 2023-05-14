@@ -1,0 +1,167 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive, "Vazirmatn", sans-serif;
+}
+
+body {
+    background: #3963ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.wrapper {
+    width: 455px;
+    background-color: #f6fbf9;
+    border-radius: 32px;
+    padding: 15px 71px 44px 71px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.txt-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 4px;
+}
+
+.span-text {
+    color: #212b27;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.p-text {
+    font-size: 13px;
+    color: #32403b;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    outline: 0;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.error-inp {
+    border-color: red;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 50%);
+}
+
+input:hover {
+    border-color: #bfdbfe;
+}
+
+input:focus {
+    border-color: #93c5fd;
+}
+
+    input:focus.error-inp {
+        border-color: red;
+    }
+
+.btn-wrapper {
+    text-align: center;
+}
+
+button {
+    padding: 13px 45px;
+    color: #fff;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 13px;
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform:uppercase;
+}
+
+    button:hover {
+        background-color: #bfdbfe;
+    }
+
+.p-login {
+    font-size: 14px;
+    color: #32403b;
+    font-weight: 300;
+}
+
+.login-wrapper {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #32403b;
+}
+
+.result-container {
+    background-color: #0f172a;
+    width: 100%;
+    padding: 6px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+    border-radius: 9px;
+}
+
+.div-orange {
+    background-color: #f59e0b;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+        width: 355px;
+        padding: 44px 27px;
+    }
+
+    .result-container {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+        padding: 8px;
+    }
+}
+
+.image-logo {
+    width: 100%;
+    height: 100%;
+    margin: 0 100%;
+}
+
+.image-container {
+    margin: 0 10px 25px 10px;
+    width:100px;
+    height: 100px;
+}
