@@ -11,6 +11,6 @@ namespace ItStepQuiz.Infrastructure.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public bool IsValid { get; set; }
-        public Questions Question { get; set; }
+        public Guid GameId { get; set; }
     }
 }
